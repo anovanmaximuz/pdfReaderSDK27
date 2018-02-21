@@ -113,17 +113,41 @@ public class PdfRendererBasicFragment extends Fragment implements View.OnClickLi
         if (null != savedInstanceState) {
             mPageIndex = savedInstanceState.getInt(STATE_CURRENT_PAGE_INDEX, 0);
         }
+
+
     }
 
     @Override
     public void onStart() {
         super.onStart();
         try {
-            openRenderer(getActivity());
+            openRenderer(getContext());
             showPage(mPageIndex);
+            mImageView.setOnTouchListener(new OnSwipeTouchListener(getContext()) {
+                public void onSwipeTop() {
+                    // Toast.makeText(getContext(), "top", Toast.LENGTH_SHORT).show();
+                }
+
+                public void onSwipeRight() {
+                    //Toast.makeText(getContext(), "right", Toast.LENGTH_SHORT).show();
+                    if (mCurrentPage.getIndex() > 0)
+                        showPage(mCurrentPage.getIndex() - 1);
+                }
+
+                public void onSwipeLeft() {
+                    //Toast.makeText(getContext(), "left", Toast.LENGTH_SHORT).show();
+                    if (mCurrentPage.getIndex() < mPdfRenderer.getPageCount())
+                        showPage(mCurrentPage.getIndex() + 1);
+                }
+
+                public void onSwipeBottom() {
+                    //Toast.makeText(getContext(), "bottom", Toast.LENGTH_SHORT).show();
+                }
+
+            });
         } catch (IOException e) {
             e.printStackTrace();
-            Toast.makeText(getActivity(), "Error! " + e.getMessage(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Error! " + e.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
 
