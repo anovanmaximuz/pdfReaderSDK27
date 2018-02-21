@@ -33,18 +33,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_real);
         if (savedInstanceState == null) {
-            Fragment dillan_one = new PdfRendererBasicFragment();
 
-            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            // Replace whatever is in the fragment_container view with this fragment,
-            // and add the transaction to the back stack so the user can navigate back
-            transaction.replace(R.id.container, newFragment);
-            transaction.addToBackStack(null);
-
-            // Commit the transaction
-            transaction.commit();
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new PdfRendererBasicFragment(),
+                   .add(R.id.container, new PdfRendererBasicFragment("dilan_1.pdf"),
                             FRAGMENT_PDF_RENDERER_BASIC)
                     .commit();
         }

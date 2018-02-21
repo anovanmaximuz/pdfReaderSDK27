@@ -50,7 +50,7 @@ public class PdfRendererBasicFragment extends Fragment implements View.OnClickLi
     /**
      * The filename of the PDF.
      */
-    private static final String FILENAME = "dilan_2.pdf";
+    private static String FILENAME = "dilan_2.pdf";
 
     /**
      * File descriptor of the PDF.
@@ -87,7 +87,8 @@ public class PdfRendererBasicFragment extends Fragment implements View.OnClickLi
      */
     private int mPageIndex;
 
-    public PdfRendererBasicFragment() {
+    public PdfRendererBasicFragment(String series) {
+        FILENAME = series;
     }
 
     @Override
