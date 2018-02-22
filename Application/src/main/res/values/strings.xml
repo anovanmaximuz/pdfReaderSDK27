@@ -15,8 +15,14 @@
   limitations under the License.
 -->
 <resources>
-
-    <string name="app_name_with_index">Novel Dillan (%1$d/%2$d)</string>
+    <string name="admob_banner">ca-app-pub-6793022751700770/6426217255</string>
+    <string name="admob_full">ca-app-pub-6793022751700770/8995243108</string>
+    <string name="app_name_with_index">Dilan (%1$d/%2$d)</string>
+    <string name="dilan_1990">Dilan 1990</string>
+    <string name="dilan_1991">Dilan 1991</string>
+    <string name="dilan_milea">Milea</string>
+    <string name="dilan_quote">Dilan Quote</string>
+    <string name="page_selector">(%1$d/%2$d)</string>
     <string name="info">Info</string>
     <string name="previous">Previous</string>
     <string name="next">Next</string>

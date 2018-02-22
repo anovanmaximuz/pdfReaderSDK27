@@ -1,15 +1,19 @@
 #Internal package file, do not edit.
-#Wed Feb 21 14:37:22 ICT 2018
-1.base=D\:\\android\\android-PdfRendererBasic\\Application\\build\\intermediates\\assets\\debug
-2.path=dilan_2.pdf
+#Thu Feb 22 21:46:34 ICT 2018
+1.base=E\:\\android\\PDFReaderDillan\\Application\\build\\intermediates\\assets\\debug
+2.path=dilan_3.pdf
 0.baseType=DIRECTORY
-2.base=D\:\\android\\android-PdfRendererBasic\\Application\\build\\intermediates\\assets\\debug
+3.baseType=DIRECTORY
+2.base=E\:\\android\\PDFReaderDillan\\Application\\build\\intermediates\\assets\\debug
+3.set=ASSET
 2.set=ASSET
 1.baseType=DIRECTORY
-count=3
+3.path=fonts/mileadilan.otf
+count=4
 1.set=ASSET
-0.path=dilan_1.pdf
+0.path=dilan_2.pdf
+3.base=E\:\\android\\PDFReaderDillan\\Application\\build\\intermediates\\assets\\debug
 0.set=ASSET
-0.base=D\:\\android\\android-PdfRendererBasic\\Application\\build\\intermediates\\assets\\debug
+0.base=E\:\\android\\PDFReaderDillan\\Application\\build\\intermediates\\assets\\debug
 2.baseType=DIRECTORY
-1.path=dilan_3.pdf
+1.path=dilan_1.pdf

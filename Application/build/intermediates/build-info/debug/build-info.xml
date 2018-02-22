@@ -5,77 +5,86 @@
     build-mode="COLD"
     density="xhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="FIELD_ADDED"
     plugin-version="3.0.1"
-    timestamp="1519201778195"
-    token="-3333521893083397807"
+    timestamp="1519311897151"
+    token="-9177319039275690681"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="111" />
+        duration="1158" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="12" />
+        duration="85" />
     <task
         name="verifier"
-        duration="3" />
+        duration="26" />
 
     <artifact
-        location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1519198633270"
+        timestamp="1519310568487"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\outputs\apk\debug\Application-debug.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\android\PDFReaderDillan\Application\build\outputs\apk\debug\Application-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1519201778195"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1519310783251"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\android\android-PdfRendererBasic\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="E:\android\PDFReaderDillan\Application\build\outputs\apk\debug\Application-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1519311897151"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\android\PDFReaderDillan\Application\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
     </build>
 

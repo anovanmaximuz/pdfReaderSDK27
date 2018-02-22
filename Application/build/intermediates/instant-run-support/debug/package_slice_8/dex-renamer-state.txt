@@ -1,4 +1,4 @@
-#Wed Feb 21 14:32:54 ICT 2018
-base.0=D\:\\android\\android-PdfRendererBasic\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\27
+#Thu Feb 22 21:24:42 ICT 2018
+base.0=E\:\\android\\PDFReaderDillan\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 path.0=classes.dex
 renamed.0=classes.dex

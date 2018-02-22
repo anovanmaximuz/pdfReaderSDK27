@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\android\\android-PdfRendererBasic\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "E:\\android\\PDFReaderDillan\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\PopFren\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\d6082e293794e1c808c366953aad8573\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Ano\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\8a1d1e71a793608d96e8002a4533fe70\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\PopFren\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.0.2.aar\\cc9c9f3c8e63a308b6ec277d5f94764d\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Ano\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.0.2.aar\\c59c1b0de1f23a556cce4ea50a25f772\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -16,7 +16,7 @@
 -->
 <!-- package name must be unique so suffix with "tests" so package loader doesn't ignore us -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.pdfrendererbasic.test"
+    package="com.novel.android.dilan.test"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -30,7 +30,7 @@
         android:functionalTest="false"
         android:handleProfiling="false"
         android:label="Tests for com.example.android.pdfrendererbasic"
-        android:targetPackage="com.example.android.pdfrendererbasic" />
+        android:targetPackage="com.novel.android.dilan" />
 
     <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
     <!--
